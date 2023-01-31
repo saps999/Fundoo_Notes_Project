@@ -1,39 +1,43 @@
 import User from '../models/user.model';
+const bcrypt = require('bcrypt')
+import jwt from 'jsonwebtoken'
 
-//get all users
-export const getAllUsers = async () => {
-  const data = await User.find();
-  return data;
-};
 
 //create new user
-export const newUser = async (body) => {
-  const data = await User.create(body);
-  return data;
+export const signup = async (body) => {
+  const existingUser = await User.findOne({ email: body.email });
+  if (!existingUser) {
+    const salt = await bcrypt.genSalt(10);
+    body.password = await bcrypt.hash(body.password, salt);
+    const data = await User.create(body);
+    return data;
+  }
+  else {
+    throw new Error("User already exist")
+  }
 };
 
-//update single user
-export const updateUser = async (_id, body) => {
-  const data = await User.findByIdAndUpdate(
-    {
-      _id
-    },
-    body,
-    {
-      new: true
+export const login = async (body) => {
+  try {
+    const userdata = await User.findOne({ email: body.email });
+    if (!userdata) {
+      throw new Error("Invalid Email")
     }
-  );
-  return data;
+    const validPassword = await bcrypt.compare(body.password, userdata.password);
+    if (!validPassword) {
+      throw new Error("Invalid Password")
+    }
+    else {
+      let token = jwt.sign({ email: userdata.email , id: userdata._id }, process.env.SECRET_KEY);
+      return token;
+    }
+    
+  }
+  catch (error) {
+    throw new Error(error)
+  }
+
 };
 
-//delete single user
-export const deleteUser = async (id) => {
-  await User.findByIdAndDelete(id);
-  return '';
-};
 
-//get single user
-export const getUser = async (id) => {
-  const data = await User.findById(id);
-  return data;
-};
+

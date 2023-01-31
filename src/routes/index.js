@@ -14,6 +14,8 @@ const routes = () => {
   });
 
   router.use('/users', userRoute);
+
+  router.use('/notes', noteRoute);
   
   return router;
 };

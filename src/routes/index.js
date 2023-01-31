@@ -12,9 +12,11 @@ const routes = () => {
   router.get('/', (req, res) => {
     res.json('Welcome to Fundoo Notes!!!');
   });
-
+  
+  //user routes
   router.use('/users', userRoute);
 
+  //notes routes
   router.use('/notes', noteRoute);
   
   return router;

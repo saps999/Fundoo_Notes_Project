@@ -1,0 +1,90 @@
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ userId: 'shreya@gmail.com' }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (D:\FundooNotesProject\Fundoo_Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\FundooNotesProject\Fundoo_Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63d9387483ee1531acf7d429 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-31T15:56:27.691Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ userId: 'shreya@gmail.com' }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (D:\FundooNotesProject\Fundoo_Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\FundooNotesProject\Fundoo_Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63d9387483ee1531acf7d429 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-31T15:56:57.793Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "shreya@gmail.com" (type string) at path "_id" for model "Notes"
+    at model.Query.exec (D:\FundooNotesProject\Fundoo_Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\FundooNotesProject\Fundoo_Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63d9387483ee1531acf7d429 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-31T15:57:28.652Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ userId: 'naruto@gmail.com' }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (D:\FundooNotesProject\Fundoo_Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\FundooNotesProject\Fundoo_Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63d9387483ee1531acf7d429 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-31T16:01:47.887Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ userId: 'naruto@gmail.com' }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (D:\FundooNotesProject\Fundoo_Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\FundooNotesProject\Fundoo_Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63d9387483ee1531acf7d429 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-31T16:02:26.375Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ userId: 'naruto@gmail.com', id: undefined }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (D:\FundooNotesProject\Fundoo_Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\FundooNotesProject\Fundoo_Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63d9387483ee1531acf7d429 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-31T16:03:19.229Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ id: undefined }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (D:\FundooNotesProject\Fundoo_Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\FundooNotesProject\Fundoo_Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63d9387483ee1531acf7d429 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-31T16:03:59.773Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "63d9387483ee1531acf7d429k" (type string) at path "_id" for model "Notes"
+    at model.Query.exec (D:\FundooNotesProject\Fundoo_Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\FundooNotesProject\Fundoo_Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63d9387483ee1531acf7d429k 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-31T16:13:22.274Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "63d9387483ee1531acf7d42" (type string) at path "_id" for model "Notes"
+    at model.Query.exec (D:\FundooNotesProject\Fundoo_Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\FundooNotesProject\Fundoo_Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63d9387483ee1531acf7d42 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-31T16:13:33.557Z"}

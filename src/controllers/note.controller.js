@@ -16,7 +16,7 @@ export const createNote = async (req, res, next) => {
 
 export const updateNote = async (req, res, next) => {
     try {
-        const data = await NoteService.updateNote(req.params._id, req.body);
+        const data = await NoteService.updateNote(req.body.userId, req.params._id, req.body);
         res.status(HttpStatus.ACCEPTED).json({
             code: HttpStatus.ACCEPTED,
             data: data,
@@ -27,9 +27,9 @@ export const updateNote = async (req, res, next) => {
     }
 };
 
-export const getAll= async (req,res,next)=>{
+export const getAll = async (req, res, next) => {
     try {
-        const data = await NoteService.getAll();
+        const data = await NoteService.getAll(req.body.userId);
         res.status(HttpStatus.OK).json({
             code: HttpStatus.OK,
             data: data,
@@ -42,7 +42,7 @@ export const getAll= async (req,res,next)=>{
 
 export const getById = async (req, res, next) => {
     try {
-        const data = await NoteService.getById(req.params._id);
+        const data = await NoteService.getById(req.body.userId, req.params._id);
         res.status(HttpStatus.ACCEPTED).json({
             code: HttpStatus.ACCEPTED,
             data: data,
@@ -55,7 +55,7 @@ export const getById = async (req, res, next) => {
 
 export const deleteById = async (req, res, next) => {
     try {
-        const data = await NoteService.deleteById(req.params._id);
+        const data = await NoteService.deleteById(req.body.userId, req.params._id);
         res.status(HttpStatus.OK).json({
             code: HttpStatus.OK,
             data: data,

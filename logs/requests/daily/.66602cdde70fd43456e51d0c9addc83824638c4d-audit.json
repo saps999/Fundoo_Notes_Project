@@ -6,9 +6,15 @@
     "auditLog": "logs\\requests\\daily\\.66602cdde70fd43456e51d0c9addc83824638c4d-audit.json",
     "files": [
         {
+<<<<<<< HEAD
             "date": 1675157109857,
             "name": "logs\\requests\\daily\\2023-01-31.log",
             "hash": "eaa18e01fc61f9aedf15d426f00c94cc982e3c9f578969728e0e6d6be01dedb9"
+=======
+            "date": 1675179876259,
+            "name": "logs\\requests\\daily\\2023-01-31.log",
+            "hash": "14ab52c9a7587485958f0573924bd622f53a7e852556ae57cc48ba79b8a4c6fa"
+>>>>>>> notes
         }
     ],
     "hashType": "sha256"

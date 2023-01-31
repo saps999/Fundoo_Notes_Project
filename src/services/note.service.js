@@ -6,9 +6,10 @@ export const createNote = async (body) => {
   return note;
 }
 
-export const updateNote = async (_id, body) => {
+export const updateNote = async (userId, _id, body) => {
   const data = await Note.findByIdAndUpdate(
     {
+      userId,
       _id
     },
     body,
@@ -19,17 +20,22 @@ export const updateNote = async (_id, body) => {
   return data;
 };
 
-export const getAll= async ()=>{
-  const data = await Note.find();
+export const getAll = async (userId) => {
+  const data = await Note.find({ userId: userId });
   return data
 };
 
-export const getById = async (_id) => {
-  const data = await Note.findById(_id);
+// export const getById = async (userId,_id) => {
+//   const data = await Note.findById(userId,_id);
+//   return data;
+// };
+
+export const getById = async (userId, _id) => {
+  const data = await Note.find({ userId: userId, _id: _id });
   return data;
 };
 
-export const deleteById = async (_id) => {
-  await Note.findByIdAndDelete(_id);
+export const deleteById = async (userId, _id) => {
+  await Note.findOneAndDelete({ userId: userId, _id: _id });
   return '';
 };

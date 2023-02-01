@@ -30,4 +30,7 @@ router.put('/:_id/trashout', userAuth, noteController.trashOut);
 //router to add note in archive by id
 router.put('/:_id/archive', userAuth, noteController.archiveIn);
 
+//router to remove note from archive by id
+router.put('/:_id/archiveout', userAuth, noteController.archiveOut);
+
 export default router;

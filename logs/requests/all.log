@@ -167,3 +167,13 @@ info: ::1 - - [01/Feb/2023:06:48:44 +0000] "PUT /api/v1/notes/63d8fdbca0deeb15a4
 
 info: ::1 - - [01/Feb/2023:06:48:54 +0000] "PUT /api/v1/notes/63d94924fe6fcc25d0dad64a/archive HTTP/1.1" 202 287 "-" "PostmanRuntime/7.30.1"
 
+info: ::1 - - [01/Feb/2023:06:54:12 +0000] "PUT /api/v1/notes/63d94924fe6fcc25d0dad64a/archiveout HTTP/1.1" 202 292 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:06:54:43 +0000] "PUT /api/v1/notes/63d8fdafa0deeb15a4266ea1/archiveout HTTP/1.1" 202 62 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:06:54:50 +0000] "PUT /api/v1/notes/63d94924fe6fcc25d0dad64a/archiveout HTTP/1.1" 202 292 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:06:54:56 +0000] "PUT /api/v1/notes/63d94924fe6fcc25d0dad64a/archive HTTP/1.1" 202 287 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:06:55:02 +0000] "PUT /api/v1/notes/63d94924fe6fcc25d0dad64a/archiveout HTTP/1.1" 202 292 "-" "PostmanRuntime/7.30.1"
+

@@ -72,3 +72,16 @@ export const archiveIn = async (_id, userId) => {
   );
   return data;
 };
+
+export const archiveOut = async (_id, userId) => {
+  const data = await Note.findOneAndUpdate(
+    {
+      _id,
+      userId: userId,
+      trash: false
+    },
+    { archive: false },
+    { new: true }
+  );
+  return data;
+};

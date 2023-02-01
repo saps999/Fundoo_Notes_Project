@@ -104,3 +104,16 @@ export const archiveIn = async (req, res, next) => {
         next(error);
     }
 };
+
+export const archiveOut = async (req, res, next) => {
+    try {
+        const data = await NoteService.archiveOut(req.params._id, req.body.userId);
+        res.status(HttpStatus.ACCEPTED).json({
+            code: HttpStatus.ACCEPTED,
+            data: data,
+            message: 'Note removed from archive'
+        });
+    } catch (error) {
+        next(error);
+    }
+};

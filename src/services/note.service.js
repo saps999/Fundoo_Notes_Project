@@ -10,7 +10,8 @@ export const updateNote = async (userId, _id, body) => {
   const data = await Note.findOneAndUpdate(
     {
       userId,
-      _id
+      _id,
+      trash: false
     },
     body,
     {
@@ -21,17 +22,17 @@ export const updateNote = async (userId, _id, body) => {
 };
 
 export const getAll = async (userId) => {
-  const data = await Note.find({ userId: userId });
+  const data = await Note.find({ userId: userId, trash: false });
   return data
 };
 
 export const getById = async (userId, _id) => {
-  const data = await Note.find({ userId: userId, _id: _id });
+  const data = await Note.find({ userId: userId, _id: _id, trash: false });
   return data;
 };
 
 export const deleteById = async (userId, _id) => {
-  await Note.findOneAndDelete({ userId: userId, _id: _id });
+  await Note.findOneAndDelete({ userId: userId, _id: _id, trash: false });
   return '';
 };
 
@@ -58,3 +59,4 @@ export const trashOut = async (_id, userId) => {
   );
   return data;
 };
+

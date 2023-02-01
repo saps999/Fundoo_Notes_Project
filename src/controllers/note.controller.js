@@ -78,3 +78,16 @@ export const trashIn = async (req, res, next) => {
         next(error);
     }
 };
+
+export const trashOut = async (req, res, next) => {
+    try {
+        const data = await NoteService.trashOut(req.params._id, req.body.userId);
+        res.status(HttpStatus.ACCEPTED).json({
+            code: HttpStatus.ACCEPTED,
+            data: data,
+            message: 'Note removed from trash'
+        });
+    } catch (error) {
+        next(error);
+    }
+};

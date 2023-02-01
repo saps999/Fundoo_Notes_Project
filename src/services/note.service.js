@@ -46,3 +46,15 @@ export const trashIn = async (_id, userId) => {
   );
   return data;
 };
+
+export const trashOut = async (_id, userId) => {
+  const data = await Note.findOneAndUpdate(
+    {
+      _id,
+      userId: userId
+    },
+    { trash: false },
+    { new: true }
+  );
+  return data;
+};

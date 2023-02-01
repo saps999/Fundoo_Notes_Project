@@ -27,4 +27,7 @@ router.put('/:_id/trash', userAuth, noteController.trashIn);
 //router to remove note from trash by id
 router.put('/:_id/trashout', userAuth, noteController.trashOut);
 
+//router to add note in archive by id
+router.put('/:_id/archive', userAuth, noteController.archiveIn);
+
 export default router;

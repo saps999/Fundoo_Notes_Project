@@ -91,3 +91,16 @@ export const trashOut = async (req, res, next) => {
         next(error);
     }
 };
+
+export const archiveIn = async (req, res, next) => {
+    try {
+        const data = await NoteService.archiveIn(req.params._id, req.body.userId);
+        res.status(HttpStatus.ACCEPTED).json({
+            code: HttpStatus.ACCEPTED,
+            data: data,
+            message: 'Note added to archive'
+        });
+    } catch (error) {
+        next(error);
+    }
+};

@@ -60,3 +60,15 @@ export const trashOut = async (_id, userId) => {
   return data;
 };
 
+export const archiveIn = async (_id, userId) => {
+  const data = await Note.findOneAndUpdate(
+    {
+      _id,
+      userId: userId,
+      trash: false
+    },
+    { archive: true },
+    { new: true }
+  );
+  return data;
+};

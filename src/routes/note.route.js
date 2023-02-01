@@ -21,4 +21,7 @@ router.get('/:_id', userAuth, noteController.getById);
 //router to delete a note by id
 router.delete('/:_id', userAuth, noteController.deleteById);
 
+//router to add note in trash by id
+router.put('/:_id/trash', userAuth, noteController.trashIn);
+
 export default router;

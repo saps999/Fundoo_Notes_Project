@@ -65,3 +65,16 @@ export const deleteById = async (req, res, next) => {
         next(error);
     }
 };
+
+export const trashIn = async (req, res, next) => {
+    try {
+        const data = await NoteService.trashIn(req.params._id, req.body.userId);
+        res.status(HttpStatus.ACCEPTED).json({
+            code: HttpStatus.ACCEPTED,
+            data: data,
+            message: 'Note added to trash'
+        });
+    } catch (error) {
+        next(error);
+    }
+};

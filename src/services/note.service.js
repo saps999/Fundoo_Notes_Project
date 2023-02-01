@@ -11,7 +11,8 @@ export const updateNote = async (userId, _id, body) => {
     {
       userId,
       _id,
-      trash: false
+      trash: false, 
+      archive: false 
     },
     body,
     {
@@ -22,17 +23,17 @@ export const updateNote = async (userId, _id, body) => {
 };
 
 export const getAll = async (userId) => {
-  const data = await Note.find({ userId: userId, trash: false });
+  const data = await Note.find({ userId: userId, trash: false, archive: false  });
   return data
 };
 
 export const getById = async (userId, _id) => {
-  const data = await Note.find({ userId: userId, _id: _id, trash: false });
+  const data = await Note.find({ userId: userId, _id: _id, trash: false , archive: false });
   return data;
 };
 
 export const deleteById = async (userId, _id) => {
-  await Note.findOneAndDelete({ userId: userId, _id: _id, trash: false });
+  await Note.findOneAndDelete({ userId: userId, _id: _id, trash: false, archive: false });
   return '';
 };
 

@@ -624,3 +624,59 @@ error:
     method - POST 
     IP - ::ffff:127.0.0.1
    {"timestamp":"2023-02-06T17:30:21.530Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fname" length must be at least 4 characters long 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-06T18:01:19.283Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lname" length must be at least 4 characters long 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-06T18:01:19.291Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-06T18:01:19.297Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must be a string 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-06T18:01:19.306Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Email
+    at _callee2$ (D:\FundooNotesProject\Fundoo_Notes\src\services\/user.service.js:38:11)
+    at tryCatch (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-06T18:01:19.867Z"}
+error: 
+    status - 500 
+    message - Error: Error: data and hash must be strings
+    at _callee2$ (D:\FundooNotesProject\Fundoo_Notes\src\services\/user.service.js:38:11)
+    at tryCatch (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-06T18:01:20.133Z"}

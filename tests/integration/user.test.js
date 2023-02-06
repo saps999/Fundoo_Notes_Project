@@ -26,7 +26,7 @@ describe('User APIs Test', () => {
     done();
   });
 
-  // testing user registration apis
+  // testing user registration api
   describe('User Registration ', () => {
 
     it('ValidUserDetailsAreGivenItShouldBeSaveInDatabase', (done) => {
@@ -105,6 +105,53 @@ describe('User APIs Test', () => {
       }
       request(app)
         .post('/api/v1/users/')
+        .send(inputBody)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(500);
+          done();
+        });
+    });
+  });
+
+  // testing user login api
+  describe('User Login', async () => {
+
+    it('ValidUserLoginDetailsAreGivenItShouldLogInSuccessfully.', (done) => {
+      const inputBody = {
+        "email": "saptarshi@gmail.com",
+        "password": "saps99"
+      }
+      request(app)
+        .post('/api/v1/users/login')
+        .send(inputBody)
+        .end((err, res) => {
+          let token = res.body.data
+          expect(res.statusCode).to.be.equal(200);
+          done();
+        });
+    });
+
+    it('InvalidEmailIsGivenItShouldThrowAnError', (done) => {
+      const inputBody = {
+        "email": "saptarshi@.com",
+        "password": "saps99"
+      }
+      request(app)
+        .post('/api/v1/users/login')
+        .send(inputBody)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(500);
+          done();
+        });
+    });
+
+    it('InvalidPasswordIsGivenItShouldThrowAnError', (done) => {
+      const inputBody = {
+        "email": "saptarshi@gmail.com",
+        "password": 123456
+      }
+      request(app)
+        .post('/api/v1/users/login')
         .send(inputBody)
         .end((err, res) => {
           expect(res.statusCode).to.be.equal(500);

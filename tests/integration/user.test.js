@@ -26,15 +26,15 @@ describe('User APIs Test', () => {
     done();
   });
 
-  // testing user registration
+  // testing user registration apis
   describe('User Registration ', () => {
 
     it('ValidUserDetailsAreGivenItShouldBeSaveInDatabase', (done) => {
       const inputBody = {
-        "fname": "Dhanshree",
-        "lname": "Patil",
-        "email": "patilds@gmail.com",
-        "password": "dhanshree"
+        "fname": "saptarshi",
+        "lname": "biswas",
+        "email": "saptarshi@gmail.com",
+        "password": "saps99"
       }
       request(app)
         .post('/api/v1/users/')
@@ -48,10 +48,10 @@ describe('User APIs Test', () => {
 
     it('InvalidFirstnameIsGivenItShouldThrowAnError', (done) => {
       const inputBody = {
-        "fname": "ddd",
-        "lname": "maneg",
-        "email": "dhanu@gmail.com",
-        "password": "dhanshree2000"
+        "fname": "sap",
+        "lname": "biswas",
+        "email": "saptarshi@gmail.com",
+        "password": "saps99"
       }
       request(app)
         .post('/api/v1/users/')
@@ -65,10 +65,10 @@ describe('User APIs Test', () => {
 
     it('InvalidLastnameIsGivenItShouldThrowAnError', (done) => {
       const inputBody = {
-        "fname": "Dhanshree",
-        "lname": "pat",
-        "email": "dhanshree@gmail.com",
-        "password": "dhanshree123"
+        "fname": "saptarshi",
+        "lname": "bis",
+        "email": "saptarshi@gmail.com",
+        "password": "saps99"
       }
       request(app)
         .post('/api/v1/users/')
@@ -81,10 +81,10 @@ describe('User APIs Test', () => {
 
     it('InvalidEmailIsGivenItShouldThrowAnError', (done) => {
       const inputBody = {
-        "fname": "dhanshree",
-        "lname": "patil",
-        "email": "dhanshree@.com",
-        "password": "dhanshree"
+        "fname": "saptarshi",
+        "lname": "biswas",
+        "email": "saptarshi@.com",
+        "password": "saps99"
       }
       request(app)
         .post('/api/v1/users/')
@@ -98,9 +98,9 @@ describe('User APIs Test', () => {
 
     it('InvalidPasswordIsGivenItShouldThrowAnError', (done) => {
       const inputBody = {
-        "fname": "dhanshree",
-        "lname": "patil",
-        "email": "dhanshree@gmail.com",
+        "fname": "saptarshi",
+        "lname": "biswas",
+        "email": "saptarshi@gmail.com",
         "password": 1234
       }
       request(app)

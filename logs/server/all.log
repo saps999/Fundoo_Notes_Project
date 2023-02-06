@@ -922,3 +922,33 @@ info: Connected to the database. {"timestamp":"2023-02-06T17:20:17.674Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:21:09.919Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:21:14.784Z"}
 info: Connected to the database. {"timestamp":"2023-02-06T17:21:18.488Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:30:17.866Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T17:30:20.425Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fname" length must be at least 4 characters long 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-06T17:30:21.508Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lname" length must be at least 4 characters long 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-06T17:30:21.514Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-06T17:30:21.522Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must be a string 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-06T17:30:21.530Z"}

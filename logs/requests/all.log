@@ -365,3 +365,13 @@ info: ::1 - - [06/Feb/2023:17:22:52 +0000] "POST /api/v1/users/ HTTP/1.1" 201 31
 
 info: ::1 - - [06/Feb/2023:17:23:23 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 200 557 "-" "PostmanRuntime/7.30.1"
 
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:17:30:21 +0000] "POST /api/v1/users/ HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:17:30:21 +0000] "POST /api/v1/users/ HTTP/1.1" 500 86 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:17:30:21 +0000] "POST /api/v1/users/ HTTP/1.1" 500 86 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:17:30:21 +0000] "POST /api/v1/users/ HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:17:30:21 +0000] "POST /api/v1/users/ HTTP/1.1" 500 64 "-" "node-superagent/3.8.3"
+

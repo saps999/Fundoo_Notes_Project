@@ -4,7 +4,7 @@ export const newUserValidator = (req, res, next) => {
   const schema = Joi.object({
     fname: Joi.string().min(4).required(),
     lname: Joi.string().min(4).required(),
-    email: Joi.string().min(4).required(),
+    email: Joi.string().email().required(),
     password: Joi.string().min(4).required()
   });
   

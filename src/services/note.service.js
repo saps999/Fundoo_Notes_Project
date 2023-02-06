@@ -10,9 +10,7 @@ export const updateNote = async (userId, _id, body) => {
   const data = await Note.findOneAndUpdate(
     {
       userId,
-      _id,
-      trash: false, 
-      archive: false 
+      _id
     },
     body,
     {
@@ -28,7 +26,7 @@ export const getAll = async (userId) => {
 };
 
 export const getById = async (userId, _id) => {
-  const data = await Note.find({ userId: userId, _id: _id, trash: false , archive: false });
+  const data = await Note.find({ userId: userId, _id: _id });
   return data;
 };
 
@@ -65,8 +63,7 @@ export const archiveIn = async (_id, userId) => {
   const data = await Note.findOneAndUpdate(
     {
       _id,
-      userId: userId,
-      trash: false
+      userId: userId
     },
     { archive: true },
     { new: true }
@@ -78,8 +75,7 @@ export const archiveOut = async (_id, userId) => {
   const data = await Note.findOneAndUpdate(
     {
       _id,
-      userId: userId,
-      trash: false
+      userId: userId
     },
     { archive: false },
     { new: true }

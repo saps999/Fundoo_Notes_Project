@@ -5,9 +5,9 @@ import * as UserService from '../services/user.service';
 export const signup = async (req, res, next) => {
   try {
     const data = await UserService.signup(req.body);
-    res.status(HttpStatus.OK).json({
-      code: HttpStatus.OK,
-      data:data,
+    res.status(HttpStatus.CREATED).json({
+      code: HttpStatus.CREATED,
+      data: data,
       message: 'User Registered successfully'
     });
   } catch (error) {
@@ -15,17 +15,46 @@ export const signup = async (req, res, next) => {
   }
 };
 
-export const login =async(req,res,next) => {
-  try
-  {
+export const login = async (req, res, next) => {
+  try {
     const data = await UserService.login(req.body);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
-      data:req.body.email,
-      token:data,
-      message:"User loggedin successfully"
+      data: req.body.email,
+      token: data,
+      message: "User loggedin successfully"
     });
   } catch (error) {
+    next(error);
+  }
+};
+
+export const forgetPassword = async (req, res, next) => {
+  try {
+    const data = await UserService.forgetPassword(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'Reset mail sent to your email.'
+    });
+  } catch (error) {
+    next(error);
+  }
+};
+
+
+export const resetPassword = async (req, res, next) => {
+  try {
+    const data = await UserService.resetPassword(req.body);
+
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'Password Updated.'
+    });
+
+  }
+  catch (error) {
     next(error);
   }
 };

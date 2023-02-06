@@ -332,3 +332,593 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T0
 info: Connected to the database. {"timestamp":"2023-02-01T06:54:03.212Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T06:57:57.778Z"}
 info: Connected to the database. {"timestamp":"2023-02-01T06:58:00.265Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T15:49:55.878Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T15:49:59.605Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T16:03:02.976Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T16:03:06.552Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (D:\FundooNotesProject\Fundoo_Notes\node_modules\bcrypt\bcrypt.js:137:17)
+    at D:\FundooNotesProject\Fundoo_Notes\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (D:\FundooNotesProject\Fundoo_Notes\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (D:\FundooNotesProject\Fundoo_Notes\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee4$ (D:\FundooNotesProject\Fundoo_Notes\src\services\/user.service.js:64:32)
+    at tryCatch (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.pwdReset (D:\FundooNotesProject\Fundoo_Notes\src\services\/user.service.js:61:22)
+    at _callee4$ (D:\FundooNotesProject\Fundoo_Notes\src\controllers\/user.controller.js:54:36)
+    at tryCatch (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at pwdReset (D:\FundooNotesProject\Fundoo_Notes\src\controllers\/user.controller.js:51:22)
+    at Layer.handle [as handle_request] (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at _callee2$ (D:\FundooNotesProject\Fundoo_Notes\src\middlewares\/auth.middleware.js:43:5)
+    at tryCatch (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/reset/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNhcHRhcnNoaTE5OTliaXN3YXNAZ21haWwuY29tIiwiaWF0IjoxNjc1Njk5NDI1fQ.OdkWOgItRe3F_t4A2nuJLkK1EVb_GW9q1Mq6eykDmuE 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-06T16:04:29.150Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T16:04:52.839Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T16:04:55.573Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T16:07:13.817Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T16:07:16.461Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T16:07:22.007Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T16:07:24.561Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T16:07:57.690Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T16:08:01.186Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T16:08:06.021Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T16:08:08.564Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T16:23:21.674Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T16:23:24.770Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T16:23:30.271Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T16:23:32.858Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T16:24:29.525Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T16:24:32.114Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T16:24:50.178Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T16:24:52.697Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T16:25:35.311Z"}
+error: uncaughtException: expected 404 to equal 201
+AssertionError: expected 404 to equal 201
+    at Test.<anonymous> (D:\FundooNotesProject\Fundoo_Notes\tests\integration\/user.test.js:42:40)
+    at Test.assert (D:\FundooNotesProject\Fundoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FundooNotesProject\Fundoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 21:55:35 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":201,"message":"expected 404 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (D:\\FundooNotesProject\\Fundoo_Notes\\tests\\integration\\/user.test.js:42:40)\n    at Test.assert (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":3834},"process":{"argv":["D:\\node\\node.exe","D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\FundooNotesProject\\Fundoo_Notes","execPath":"D:\\node\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19103833,"external":20232467,"heapTotal":135434240,"heapUsed":112190624,"rss":174325760},"pid":14364,"uid":null,"version":"v18.12.0"},"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (D:\\FundooNotesProject\\Fundoo_Notes\\tests\\integration\\/user.test.js:42:40)\n    at Test.assert (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-06T16:25:35.399Z","trace":[{"column":40,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":42,"method":null,"native":false},{"column":6,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T16:26:51.645Z"}
+error: uncaughtException: expected 404 to equal 201
+AssertionError: expected 404 to equal 201
+    at Test.<anonymous> (D:\FundooNotesProject\Fundoo_Notes\tests\integration\/user.test.js:42:40)
+    at Test.assert (D:\FundooNotesProject\Fundoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FundooNotesProject\Fundoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 21:56:51 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":201,"message":"expected 404 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (D:\\FundooNotesProject\\Fundoo_Notes\\tests\\integration\\/user.test.js:42:40)\n    at Test.assert (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":3911},"process":{"argv":["D:\\node\\node.exe","D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\FundooNotesProject\\Fundoo_Notes","execPath":"D:\\node\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19371598,"external":20495997,"heapTotal":125071360,"heapUsed":98840232,"rss":162078720},"pid":13132,"uid":null,"version":"v18.12.0"},"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (D:\\FundooNotesProject\\Fundoo_Notes\\tests\\integration\\/user.test.js:42:40)\n    at Test.assert (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-06T16:26:51.702Z","trace":[{"column":40,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":42,"method":null,"native":false},{"column":6,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T16:28:54.622Z"}
+error: uncaughtException: expected 404 to equal 201
+AssertionError: expected 404 to equal 201
+    at Test.<anonymous> (D:\FundooNotesProject\Fundoo_Notes\tests\integration\/user.test.js:42:40)
+    at Test.assert (D:\FundooNotesProject\Fundoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FundooNotesProject\Fundoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 21:58:54 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":201,"message":"expected 404 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (D:\\FundooNotesProject\\Fundoo_Notes\\tests\\integration\\/user.test.js:42:40)\n    at Test.assert (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":4034},"process":{"argv":["D:\\node\\node.exe","D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\FundooNotesProject\\Fundoo_Notes","execPath":"D:\\node\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19443801,"external":20568693,"heapTotal":124284928,"heapUsed":98361280,"rss":161071104},"pid":8276,"uid":null,"version":"v18.12.0"},"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (D:\\FundooNotesProject\\Fundoo_Notes\\tests\\integration\\/user.test.js:42:40)\n    at Test.assert (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-06T16:28:54.681Z","trace":[{"column":40,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":42,"method":null,"native":false},{"column":6,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T16:29:34.453Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T16:29:36.898Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T16:29:46.330Z"}
+error: uncaughtException: expected 404 to equal 201
+AssertionError: expected 404 to equal 201
+    at Test.<anonymous> (D:\FundooNotesProject\Fundoo_Notes\tests\integration\/user.test.js:42:40)
+    at Test.assert (D:\FundooNotesProject\Fundoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FundooNotesProject\Fundoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 21:59:46 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":201,"message":"expected 404 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (D:\\FundooNotesProject\\Fundoo_Notes\\tests\\integration\\/user.test.js:42:40)\n    at Test.assert (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":4085},"process":{"argv":["D:\\node\\node.exe","D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\FundooNotesProject\\Fundoo_Notes","execPath":"D:\\node\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19200829,"external":20325141,"heapTotal":120442880,"heapUsed":95018664,"rss":157597696},"pid":8756,"uid":null,"version":"v18.12.0"},"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (D:\\FundooNotesProject\\Fundoo_Notes\\tests\\integration\\/user.test.js:42:40)\n    at Test.assert (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-06T16:29:46.388Z","trace":[{"column":40,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":42,"method":null,"native":false},{"column":6,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T16:32:28.775Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fname" length must be at least 4 characters long 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-06T16:32:33.806Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lname" length must be at least 4 characters long 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-06T16:32:33.827Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T16:32:36.957Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: Email_1 dup key: { Email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-06T16:32:38.443Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (D:\FundooNotesProject\Fundoo_Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (D:\FundooNotesProject\Fundoo_Notes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:326:13)
+    at D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:646:15
+    at next (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:265:14)
+    at D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:646:15
+    at next (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:265:14)
+    at next (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\route.js:136:14)
+    at _callee$ (D:\FundooNotesProject\Fundoo_Notes\src\controllers\/user.controller.js:14:5)
+    at tryCatch (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-06T16:32:38.450Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must be a string 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-06T16:32:38.462Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Email
+    at _callee2$ (D:\FundooNotesProject\Fundoo_Notes\src\services\/user.service.js:38:11)
+    at tryCatch (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-06T16:32:39.058Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Email
+    at _callee2$ (D:\FundooNotesProject\Fundoo_Notes\src\services\/user.service.js:38:11)
+    at tryCatch (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-06T16:32:39.309Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T16:33:45.344Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T16:33:49.319Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fname" length must be at least 4 characters long 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-06T16:33:50.357Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lname" length must be at least 4 characters long 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-06T16:33:50.365Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: Email_1 dup key: { Email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-06T16:33:50.919Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (D:\FundooNotesProject\Fundoo_Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (D:\FundooNotesProject\Fundoo_Notes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:326:13)
+    at D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:646:15
+    at next (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:265:14)
+    at D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:646:15
+    at next (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:265:14)
+    at next (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\route.js:136:14)
+    at _callee$ (D:\FundooNotesProject\Fundoo_Notes\src\controllers\/user.controller.js:14:5)
+    at tryCatch (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-06T16:33:50.926Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must be a string 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-06T16:33:50.937Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Email
+    at _callee2$ (D:\FundooNotesProject\Fundoo_Notes\src\services\/user.service.js:38:11)
+    at tryCatch (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-06T16:33:51.511Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Email
+    at _callee2$ (D:\FundooNotesProject\Fundoo_Notes\src\services\/user.service.js:38:11)
+    at tryCatch (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-06T16:33:51.781Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T16:35:26.744Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T16:35:29.649Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fname" length must be at least 4 characters long 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-06T16:35:30.618Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lname" length must be at least 4 characters long 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-06T16:35:30.625Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: Email_1 dup key: { Email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-06T16:35:31.169Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (D:\FundooNotesProject\Fundoo_Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (D:\FundooNotesProject\Fundoo_Notes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:326:13)
+    at D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:646:15
+    at next (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:265:14)
+    at D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:646:15
+    at next (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:265:14)
+    at next (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\route.js:136:14)
+    at _callee$ (D:\FundooNotesProject\Fundoo_Notes\src\controllers\/user.controller.js:14:5)
+    at tryCatch (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-06T16:35:31.177Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must be a string 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-06T16:35:31.194Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Email
+    at _callee2$ (D:\FundooNotesProject\Fundoo_Notes\src\services\/user.service.js:38:11)
+    at tryCatch (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-06T16:35:31.812Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Email
+    at _callee2$ (D:\FundooNotesProject\Fundoo_Notes\src\services\/user.service.js:38:11)
+    at tryCatch (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-06T16:35:32.095Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T16:54:29.247Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T16:54:32.326Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bearertToken is not defined
+    at _callee2$ (D:\FundooNotesProject\Fundoo_Notes\src\middlewares\/auth.middleware.js:40:35)
+    at tryCatch (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at resetAuth (D:\FundooNotesProject\Fundoo_Notes\src\middlewares\/auth.middleware.js:30:23)
+    at Layer.handle [as handle_request] (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\FundooNotesProject\Fundoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\FundooNotesProject\Fundoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\FundooNotesProject\Fundoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (D:\FundooNotesProject\Fundoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\FundooNotesProject\Fundoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/resetPassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNhcHRhcnNoaTE5OTliaXN3YXNAZ21haWwuY29tIiwiaWF0IjoxNjc1Njk5NDI1fQ.OdkWOgItRe3F_t4A2nuJLkK1EVb_GW9q1Mq6eykDmuE 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-06T16:54:46.652Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T16:55:38.825Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\FundooNotesProject\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\FundooNotesProject\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\FundooNotesProject\Fundoo_Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee2$ (D:\FundooNotesProject\Fundoo_Notes\src\middlewares\/auth.middleware.js:40:28)
+    at tryCatch (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at resetAuth (D:\FundooNotesProject\Fundoo_Notes\src\middlewares\/auth.middleware.js:30:23)
+    at Layer.handle [as handle_request] (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\FundooNotesProject\Fundoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\FundooNotesProject\Fundoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\FundooNotesProject\Fundoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (D:\FundooNotesProject\Fundoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\FundooNotesProject\Fundoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12) 
+    url - /api/v1/users/resetPassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNhcHRhcnNoaTE5OTliaXN3YXNAZ21haWwuY29tIiwiaWF0IjoxNjc1Njk5NDI1fQ.OdkWOgItRe3F_t4A2nuJLkK1EVb_GW9q1Mq6eykDmuE 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-06T16:55:39.466Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T16:55:44.166Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T16:59:26.489Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T16:59:29.737Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T16:59:37.450Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:00:17.110Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:00:23.615Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T17:00:28.153Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:00:32.143Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:00:40.957Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:00:45.769Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T17:00:48.341Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:00:52.665Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:00:55.797Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:01:04.135Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T17:01:07.838Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:01:47.660Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T17:01:50.435Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:01:57.753Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T17:02:00.332Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:06:53.465Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T17:06:56.068Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:07:12.845Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T17:07:15.418Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (D:\FundooNotesProject\Fundoo_Notes\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (D:\FundooNotesProject\Fundoo_Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (D:\FundooNotesProject\Fundoo_Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32) {"date":"Mon Feb 06 2023 22:38:37 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":6417},"process":{"argv":["node","D:\\FundooNotesProject\\Fundoo_Notes\\src\\index.js"],"cwd":"D:\\FundooNotesProject\\Fundoo_Notes","execPath":"D:\\node\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18467246,"external":20168110,"heapTotal":121106432,"heapUsed":88634376,"rss":161341440},"pid":15208,"uid":null,"version":"v18.12.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1485:16)\n    at listenInCluster (node:net:1533:12)\n    at Server.listen (node:net:1621:7)\n    at Function.listen (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (D:\\FundooNotesProject\\Fundoo_Notes\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)","timestamp":"2023-02-06T17:08:37.631Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1485,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1533,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1621,"method":"listen","native":false},{"column":24,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:08:48.510Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T17:08:51.062Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:09:45.616Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T17:09:48.970Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:09:57.736Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T17:10:01.317Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:10:12.566Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T17:10:15.134Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:10:30.478Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T17:10:32.916Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:11:48.918Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T17:11:51.596Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:12:05.800Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T17:12:08.340Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:13:20.894Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T17:13:23.473Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:13:27.225Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:13:34.122Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T17:13:36.710Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:13:47.884Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T17:13:50.372Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:13:54.743Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T17:14:02.423Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:14:12.754Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T17:14:15.359Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:14:31.744Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T17:14:35.497Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:15:05.213Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T17:15:13.047Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:16:36.027Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:16:40.141Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T17:16:43.565Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:17:14.986Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T17:17:18.094Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:18:03.039Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:18:07.676Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T17:18:10.166Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:18:20.767Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T17:18:23.387Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:18:30.476Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T17:18:35.766Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:18:39.832Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:18:43.340Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T17:18:45.744Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:18:57.335Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T17:18:59.832Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:19:08.461Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:19:12.198Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T17:19:14.736Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:19:26.140Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T17:19:28.696Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:20:15.042Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T17:20:17.674Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:21:09.919Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-06T17:21:14.784Z"}
+info: Connected to the database. {"timestamp":"2023-02-06T17:21:18.488Z"}

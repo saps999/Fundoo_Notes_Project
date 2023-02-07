@@ -13,7 +13,7 @@ export const signup = async (req, res, next) => {
     logger.log('info','User Registered Successfully')
   } catch (error) {
     next(error);
-    logger.log('error','User can not Registered')
+    logger.log('error','Error in Registering')
   }
 };
 
@@ -25,8 +25,10 @@ export const login = async (req, res, next) => {
       data: data,
       message: "User loggedin successfully"
     });
+    logger.log('info','User Loggedin Successfully')
   } catch (error) {
     next(error);
+    logger.log('error','Error in loging in')
   }
 };
 
@@ -38,8 +40,10 @@ export const forgetPassword = async (req, res, next) => {
       data: data,
       message: 'Reset mail sent to your email.'
     });
+    logger.log('info','Mail sent Successfully')
   } catch (error) {
     next(error);
+    logger.log('error','Error in sending mail')
   }
 };
 
@@ -53,9 +57,10 @@ export const resetPassword = async (req, res, next) => {
       data: data,
       message: 'Password Updated.'
     });
-
+    logger.log('info','Password changed Successfully')
   }
   catch (error) {
     next(error);
+    logger.log('error','Error in reseting password')
   }
 };

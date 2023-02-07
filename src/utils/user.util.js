@@ -4,10 +4,10 @@ import dotenv from 'dotenv'
 dotenv.config();
 
 // These id's and secrets should come from .env file.
-const clientId = CLIENT_ID;
-const clientSecret = CLEINT_SECRET;
-const redirectURI = REDIRECT_URI;
-const refreshToken = REFRESH_TOKEN;
+const clientId = process.env.CLIENT_ID;
+const clientSecret = process.env.CLEINT_SECRET;
+const redirectURI = process.env.REDIRECT_URI;
+const refreshToken = process.env.REFRESH_TOKEN;
 
 const oAuth2Client = new google.auth.OAuth2(
   clientId,

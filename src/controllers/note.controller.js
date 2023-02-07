@@ -4,8 +4,8 @@ import * as NoteService from '../services/note.service';
 export const createNote = async (req, res, next) => {
     try {
         const data = await NoteService.createNote(req.body);
-        res.status(HttpStatus.OK).json({
-            code: HttpStatus.OK,
+        res.status(HttpStatus.CREATED).json({
+            code: HttpStatus.CREATED,
             data: data,
             message: 'Note created successfully'
         });

@@ -2,7 +2,7 @@ import Joi from "@hapi/joi";
 
 export const newNoteValidator = (req, res, next) => {
   const schema = Joi.object({
-    titel: Joi.string().required(),
+    title: Joi.string().required(),
     description: Joi.string().required(),
     color: Joi.string().optional()
   })

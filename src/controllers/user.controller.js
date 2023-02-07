@@ -20,8 +20,8 @@ export const login = async (req, res, next) => {
     const data = await UserService.login(req.body);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
-      data: req.body.email,
-      token: data,
+      data: data,
+      // token: data,
       message: "User loggedin successfully"
     });
   } catch (error) {

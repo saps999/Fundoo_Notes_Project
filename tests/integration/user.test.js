@@ -26,11 +26,7 @@ describe('User APIs Test', () => {
     done();
   });
 
-<<<<<<< HEAD
   // testing user registration api
-=======
-  // testing user registration apis
->>>>>>> forgetAndResetPassword
   describe('User Registration ', () => {
 
     it('ValidUserDetailsAreGivenItShouldBeSaveInDatabase', (done) => {
@@ -116,7 +112,6 @@ describe('User APIs Test', () => {
         });
     });
   });
-<<<<<<< HEAD
 
   // testing user login api
   describe('User Login', async () => {
@@ -164,6 +159,4 @@ describe('User APIs Test', () => {
         });
     });
   });
-=======
->>>>>>> forgetAndResetPassword
 });

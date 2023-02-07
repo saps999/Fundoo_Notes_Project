@@ -1,6 +1,6 @@
 import HttpStatus from 'http-status-codes';
 import * as UserService from '../services/user.service';
-
+import logger from '../config/logger'
 
 export const signup = async (req, res, next) => {
   try {
@@ -10,8 +10,10 @@ export const signup = async (req, res, next) => {
       data: data,
       message: 'User Registered successfully'
     });
+    logger.log('info','User Registered Successfully')
   } catch (error) {
     next(error);
+    logger.log('error','User can not Registered')
   }
 };
 
@@ -21,7 +23,6 @@ export const login = async (req, res, next) => {
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,
-      // token: data,
       message: "User loggedin successfully"
     });
   } catch (error) {

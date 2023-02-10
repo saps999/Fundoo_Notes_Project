@@ -1,6 +1,7 @@
 const nodemailer = require('nodemailer');
 const { google } = require('googleapis');
 import dotenv from 'dotenv'
+import e from 'express';
 dotenv.config();
 
 // These id's and secrets should come from .env file.
@@ -16,7 +17,7 @@ const oAuth2Client = new google.auth.OAuth2(
 );
 oAuth2Client.setCredentials({ refresh_token: refreshToken });
 
-export async function sendMail(email,token) {
+export async function sendMail(email, token) {
   try {
     const accessToken = await oAuth2Client.getAccessToken();
 
@@ -49,3 +50,6 @@ export async function sendMail(email,token) {
     return error;
   }
 }
+
+
+

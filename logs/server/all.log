@@ -2540,3 +2540,452 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2023-02-07T18:44:24.642Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-08T20:49:51.623Z"}
+info: Connected to the database. {"timestamp":"2023-02-08T20:49:54.275Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-08T20:50:32.155Z"}
+info: Connected to the database. {"timestamp":"2023-02-08T20:50:34.597Z"}
+info: updated note successfully {"timestamp":"2023-02-08T20:50:42.847Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-08T20:55:08.270Z"}
+info: Connected to the database. {"timestamp":"2023-02-08T20:55:11.025Z"}
+error: error in updating note {"timestamp":"2023-02-08T20:55:14.863Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "shreya@gmail.com" (type string) at path "_id" for model "Notes"
+    at model.Query.exec (D:\FundooNotesProject\Fundoo_Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\FundooNotesProject\Fundoo_Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63d94935fe6fcc25d0dad64c 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-08T20:55:14.885Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-08T20:56:26.265Z"}
+info: Connected to the database. {"timestamp":"2023-02-08T20:56:28.849Z"}
+info: updated note successfully {"timestamp":"2023-02-08T20:56:31.119Z"}
+info: updated note successfully {"timestamp":"2023-02-08T20:56:38.069Z"}
+info: updated note successfully {"timestamp":"2023-02-08T20:57:18.219Z"}
+info: updated note successfully {"timestamp":"2023-02-08T20:57:48.793Z"}
+info: Fetched note successfully {"timestamp":"2023-02-08T20:58:06.061Z"}
+info: Fetched note successfully {"timestamp":"2023-02-08T20:58:39.163Z"}
+info: created note successfully {"timestamp":"2023-02-08T20:58:59.658Z"}
+info: Fetched note successfully {"timestamp":"2023-02-08T20:59:12.090Z"}
+info: Fetched note successfully {"timestamp":"2023-02-08T20:59:21.698Z"}
+info: updated note successfully {"timestamp":"2023-02-08T20:59:26.338Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-08T21:01:44.439Z"}
+info: Connected to the database. {"timestamp":"2023-02-08T21:01:47.093Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-08T21:02:02.354Z"}
+info: Connected to the database. {"timestamp":"2023-02-08T21:02:04.869Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-08T21:02:54.784Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-08T21:03:01.990Z"}
+info: Connected to the database. {"timestamp":"2023-02-08T21:03:04.650Z"}
+error: error in fetching all notes {"timestamp":"2023-02-08T21:03:05.079Z"}
+error: 
+    status - 500 
+    message - ReferenceError: client is not defined
+    at _callee3$ (D:\FundooNotesProject\Fundoo_Notes\src\services\/note.service.js:23:13)
+    at tryCatch (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-08T21:03:05.081Z"}
+error: uncaughtException: D:\FundooNotesProject\Fundoo_Notes\src\services\note.service.js: Unexpected token, expected "from" (5:0)
+
+[0m [90m 3 |[39m [36mimport[39m cl[0m
+[0m [90m 4 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 5 |[39m [36mexport[39m [36mconst[39m createNote [33m=[39m [36masync[39m (body) [33m=>[39m {[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[0m
+[0m [90m 6 |[39m   [36mconst[39m note [33m=[39m [36mawait[39m [33mNote[39m[33m.[39mcreate(body)[33m;[39m[0m
+[0m [90m 7 |[39m   [36mreturn[39m note[33m;[39m[0m
+[0m [90m 8 |[39m }[0m
+SyntaxError: D:\FundooNotesProject\Fundoo_Notes\src\services\note.service.js: Unexpected token, expected "from" (5:0)
+
+[0m [90m 3 |[39m [36mimport[39m cl[0m
+[0m [90m 4 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 5 |[39m [36mexport[39m [36mconst[39m createNote [33m=[39m [36masync[39m (body) [33m=>[39m {[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[0m
+[0m [90m 6 |[39m   [36mconst[39m note [33m=[39m [36mawait[39m [33mNote[39m[33m.[39mcreate(body)[33m;[39m[0m
+[0m [90m 7 |[39m   [36mreturn[39m note[33m;[39m[0m
+[0m [90m 8 |[39m }[0m
+    at instantiate (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\parser\src\parse-error\credentials.ts:62:21)
+    at toParseError (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\parser\src\parse-error.ts:60:12)
+    at Parser.raise (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\parser\src\tokenizer\index.ts:1456:19)
+    at Parser.unexpected (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\parser\src\tokenizer\index.ts:1497:16)
+    at Parser.expectContextual (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\parser\src\parser\util.ts:104:18)
+    at Parser.parseImport (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\parser\src\parser\statement.ts:2907:12)
+    at Parser.parseStatementContent (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\parser\src\parser\statement.ts:558:25)
+    at Parser.parseStatementLike (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\parser\src\parser\statement.ts:406:17)
+    at Parser.parseModuleItem (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\parser\src\parser\statement.ts:351:17)
+    at Parser.parseBlockOrModuleBlockBody (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\parser\src\parser\statement.ts:1331:16)
+    at Parser.parseBlockBody (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\parser\src\parser\statement.ts:1305:10)
+    at Parser.parseProgram (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\parser\src\parser\statement.ts:224:10)
+    at Parser.parseTopLevel (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\parser\src\parser\statement.ts:206:25)
+    at Parser.parse (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\parser\src\parser\index.ts:45:10)
+    at parse (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\parser\src\index.ts:67:38)
+    at parser (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\core\src\parser\index.ts:28:19)
+    at parser.next (<anonymous>)
+    at normalizeFile (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\core\src\transformation\normalize-file.ts:52:24)
+    at normalizeFile.next (<anonymous>)
+    at run (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\core\src\transformation\index.ts:38:36)
+    at run.next (<anonymous>)
+    at transform (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\core\src\transform.ts:29:20)
+    at transform.next (<anonymous>)
+    at evaluateSync (D:\FundooNotesProject\Fundoo_Notes\node_modules\gensync\index.js:251:28)
+    at fn (D:\FundooNotesProject\Fundoo_Notes\node_modules\gensync\index.js:89:14)
+    at stopHiding - secret - don't use this - v1 (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\core\src\errors\rewrite-stack-trace.ts:97:14)
+    at Object.transformSync (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\core\src\transform.ts:66:52)
+    at exports.transformSync (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\register\lib\worker\transform.js:94:15)
+    at Function.handleMessage (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\register\lib\worker\handle-message.js:23:16)
+    at LocalClient.<anonymous> (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\register\lib\worker-client.js:134:86)
+    at LocalClient.transform (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\register\lib\worker-client.js:64:47)
+    at compile (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\register\lib\hook.js:58:25)
+    at compileBabel7 (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\register\lib\hook.js:49:14)
+    at Module._compile (D:\FundooNotesProject\Fundoo_Notes\node_modules\pirates\lib\index.js:130:29)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (D:\FundooNotesProject\Fundoo_Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (D:\FundooNotesProject\Fundoo_Notes\src\controllers\/note.controller.js:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (D:\FundooNotesProject\Fundoo_Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (D:\FundooNotesProject\Fundoo_Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (D:\FundooNotesProject\Fundoo_Notes\src\routes\/note.route.js:2:1) {"date":"Thu Feb 09 2023 02:33:31 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":0,"index":94,"line":5},"pos":94,"reasonCode":"UnexpectedToken"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":10801},"process":{"argv":["node","D:\\FundooNotesProject\\Fundoo_Notes\\src\\index.js"],"cwd":"D:\\FundooNotesProject\\Fundoo_Notes","execPath":"D:\\node\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18500205,"external":20181974,"heapTotal":131686400,"heapUsed":108901824,"rss":172232704},"pid":17552,"uid":null,"version":"v18.12.0"},"stack":"SyntaxError: D:\\FundooNotesProject\\Fundoo_Notes\\src\\services\\note.service.js: Unexpected token, expected \"from\" (5:0)\n\n\u001b[0m \u001b[90m 3 |\u001b[39m \u001b[36mimport\u001b[39m cl\u001b[0m\n\u001b[0m \u001b[90m 4 |\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 5 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mconst\u001b[39m createNote \u001b[33m=\u001b[39m \u001b[36masync\u001b[39m (body) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m   |\u001b[39m \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 6 |\u001b[39m   \u001b[36mconst\u001b[39m note \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mNote\u001b[39m\u001b[33m.\u001b[39mcreate(body)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 7 |\u001b[39m   \u001b[36mreturn\u001b[39m note\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 8 |\u001b[39m }\u001b[0m\n    at instantiate (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parse-error\\credentials.ts:62:21)\n    at toParseError (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parse-error.ts:60:12)\n    at Parser.raise (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\tokenizer\\index.ts:1456:19)\n    at Parser.unexpected (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\tokenizer\\index.ts:1497:16)\n    at Parser.expectContextual (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\util.ts:104:18)\n    at Parser.parseImport (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.ts:2907:12)\n    at Parser.parseStatementContent (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.ts:558:25)\n    at Parser.parseStatementLike (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.ts:406:17)\n    at Parser.parseModuleItem (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.ts:351:17)\n    at Parser.parseBlockOrModuleBlockBody (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.ts:1331:16)\n    at Parser.parseBlockBody (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.ts:1305:10)\n    at Parser.parseProgram (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.ts:224:10)\n    at Parser.parseTopLevel (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.ts:206:25)\n    at Parser.parse (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\index.ts:45:10)\n    at parse (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\index.ts:67:38)\n    at parser (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\core\\src\\parser\\index.ts:28:19)\n    at parser.next (<anonymous>)\n    at normalizeFile (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\core\\src\\transformation\\normalize-file.ts:52:24)\n    at normalizeFile.next (<anonymous>)\n    at run (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\core\\src\\transformation\\index.ts:38:36)\n    at run.next (<anonymous>)\n    at transform (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\core\\src\\transform.ts:29:20)\n    at transform.next (<anonymous>)\n    at evaluateSync (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\gensync\\index.js:251:28)\n    at fn (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\gensync\\index.js:89:14)\n    at stopHiding - secret - don't use this - v1 (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\core\\src\\errors\\rewrite-stack-trace.ts:97:14)\n    at Object.transformSync (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\core\\src\\transform.ts:66:52)\n    at exports.transformSync (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\register\\lib\\worker\\transform.js:94:15)\n    at Function.handleMessage (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\register\\lib\\worker\\handle-message.js:23:16)\n    at LocalClient.<anonymous> (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\register\\lib\\worker-client.js:134:86)\n    at LocalClient.transform (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\register\\lib\\worker-client.js:64:47)\n    at compile (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\register\\lib\\hook.js:58:25)\n    at compileBabel7 (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\register\\lib\\hook.js:49:14)\n    at Module._compile (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:130:29)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Module.require (node:internal/modules/cjs/loader:1061:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (D:\\FundooNotesProject\\Fundoo_Notes\\src\\controllers\\/note.controller.js:3:1)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Module.require (node:internal/modules/cjs/loader:1061:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (D:\\FundooNotesProject\\Fundoo_Notes\\src\\routes\\/note.route.js:2:1)","timestamp":"2023-02-08T21:03:31.930Z","trace":[{"column":21,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parse-error\\credentials.ts","function":"instantiate","line":62,"method":null,"native":false},{"column":12,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parse-error.ts","function":"toParseError","line":60,"method":null,"native":false},{"column":19,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\tokenizer\\index.ts","function":"Parser.raise","line":1456,"method":"raise","native":false},{"column":16,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\tokenizer\\index.ts","function":"Parser.unexpected","line":1497,"method":"unexpected","native":false},{"column":18,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\util.ts","function":"Parser.expectContextual","line":104,"method":"expectContextual","native":false},{"column":12,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.ts","function":"Parser.parseImport","line":2907,"method":"parseImport","native":false},{"column":25,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.ts","function":"Parser.parseStatementContent","line":558,"method":"parseStatementContent","native":false},{"column":17,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.ts","function":"Parser.parseStatementLike","line":406,"method":"parseStatementLike","native":false},{"column":17,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.ts","function":"Parser.parseModuleItem","line":351,"method":"parseModuleItem","native":false},{"column":16,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.ts","function":"Parser.parseBlockOrModuleBlockBody","line":1331,"method":"parseBlockOrModuleBlockBody","native":false},{"column":10,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.ts","function":"Parser.parseBlockBody","line":1305,"method":"parseBlockBody","native":false},{"column":10,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.ts","function":"Parser.parseProgram","line":224,"method":"parseProgram","native":false},{"column":25,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.ts","function":"Parser.parseTopLevel","line":206,"method":"parseTopLevel","native":false},{"column":10,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\index.ts","function":"Parser.parse","line":45,"method":"parse","native":false},{"column":38,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\index.ts","function":"parse","line":67,"method":null,"native":false},{"column":19,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\core\\src\\parser\\index.ts","function":"parser","line":28,"method":null,"native":false},{"column":null,"file":null,"function":"parser.next","line":null,"method":"next","native":false},{"column":24,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\core\\src\\transformation\\normalize-file.ts","function":"normalizeFile","line":52,"method":null,"native":false},{"column":null,"file":null,"function":"normalizeFile.next","line":null,"method":"next","native":false},{"column":36,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\core\\src\\transformation\\index.ts","function":"run","line":38,"method":null,"native":false},{"column":null,"file":null,"function":"run.next","line":null,"method":"next","native":false},{"column":20,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\core\\src\\transform.ts","function":"transform","line":29,"method":null,"native":false},{"column":null,"file":null,"function":"transform.next","line":null,"method":"next","native":false},{"column":28,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\gensync\\index.js","function":"evaluateSync","line":251,"method":null,"native":false},{"column":14,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\gensync\\index.js","function":"fn","line":89,"method":null,"native":false},{"column":14,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\core\\src\\errors\\rewrite-stack-trace.ts","function":"stopHiding - secret - don't use this - v1","line":97,"method":null,"native":false},{"column":52,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\core\\src\\transform.ts","function":"Object.transformSync","line":66,"method":"transformSync","native":false},{"column":15,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\register\\lib\\worker\\transform.js","function":"exports.transformSync","line":94,"method":"transformSync","native":false},{"column":16,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\register\\lib\\worker\\handle-message.js","function":"Function.handleMessage","line":23,"method":"handleMessage","native":false},{"column":86,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\register\\lib\\worker-client.js","function":null,"line":134,"method":null,"native":false},{"column":47,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\register\\lib\\worker-client.js","function":"LocalClient.transform","line":64,"method":"transform","native":false},{"column":25,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\register\\lib\\hook.js","function":"compile","line":58,"method":null,"native":false},{"column":14,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\register\\lib\\hook.js","function":"compileBabel7","line":49,"method":null,"native":false},{"column":29,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":130,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1061,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":103,"method":null,"native":false},{"column":1,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\src\\controllers\\/note.controller.js","function":null,"line":3,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1061,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":103,"method":null,"native":false},{"column":1,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\src\\routes\\/note.route.js","function":null,"line":2,"method":null,"native":false}]}
+error: uncaughtException: D:\FundooNotesProject\Fundoo_Notes\src\services\note.service.js: Unexpected token, expected "from" (5:0)
+
+[0m [90m 3 |[39m [36mimport[39m cli[0m
+[0m [90m 4 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 5 |[39m [36mexport[39m [36mconst[39m createNote [33m=[39m [36masync[39m (body) [33m=>[39m {[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[0m
+[0m [90m 6 |[39m   [36mconst[39m note [33m=[39m [36mawait[39m [33mNote[39m[33m.[39mcreate(body)[33m;[39m[0m
+[0m [90m 7 |[39m   [36mreturn[39m note[33m;[39m[0m
+[0m [90m 8 |[39m }[0m
+SyntaxError: D:\FundooNotesProject\Fundoo_Notes\src\services\note.service.js: Unexpected token, expected "from" (5:0)
+
+[0m [90m 3 |[39m [36mimport[39m cli[0m
+[0m [90m 4 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 5 |[39m [36mexport[39m [36mconst[39m createNote [33m=[39m [36masync[39m (body) [33m=>[39m {[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[0m
+[0m [90m 6 |[39m   [36mconst[39m note [33m=[39m [36mawait[39m [33mNote[39m[33m.[39mcreate(body)[33m;[39m[0m
+[0m [90m 7 |[39m   [36mreturn[39m note[33m;[39m[0m
+[0m [90m 8 |[39m }[0m
+    at instantiate (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\parser\src\parse-error\credentials.ts:62:21)
+    at toParseError (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\parser\src\parse-error.ts:60:12)
+    at Parser.raise (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\parser\src\tokenizer\index.ts:1456:19)
+    at Parser.unexpected (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\parser\src\tokenizer\index.ts:1497:16)
+    at Parser.expectContextual (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\parser\src\parser\util.ts:104:18)
+    at Parser.parseImport (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\parser\src\parser\statement.ts:2907:12)
+    at Parser.parseStatementContent (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\parser\src\parser\statement.ts:558:25)
+    at Parser.parseStatementLike (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\parser\src\parser\statement.ts:406:17)
+    at Parser.parseModuleItem (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\parser\src\parser\statement.ts:351:17)
+    at Parser.parseBlockOrModuleBlockBody (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\parser\src\parser\statement.ts:1331:16)
+    at Parser.parseBlockBody (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\parser\src\parser\statement.ts:1305:10)
+    at Parser.parseProgram (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\parser\src\parser\statement.ts:224:10)
+    at Parser.parseTopLevel (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\parser\src\parser\statement.ts:206:25)
+    at Parser.parse (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\parser\src\parser\index.ts:45:10)
+    at parse (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\parser\src\index.ts:67:38)
+    at parser (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\core\src\parser\index.ts:28:19)
+    at parser.next (<anonymous>)
+    at normalizeFile (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\core\src\transformation\normalize-file.ts:52:24)
+    at normalizeFile.next (<anonymous>)
+    at run (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\core\src\transformation\index.ts:38:36)
+    at run.next (<anonymous>)
+    at transform (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\core\src\transform.ts:29:20)
+    at transform.next (<anonymous>)
+    at evaluateSync (D:\FundooNotesProject\Fundoo_Notes\node_modules\gensync\index.js:251:28)
+    at fn (D:\FundooNotesProject\Fundoo_Notes\node_modules\gensync\index.js:89:14)
+    at stopHiding - secret - don't use this - v1 (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\core\src\errors\rewrite-stack-trace.ts:97:14)
+    at Object.transformSync (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\core\src\transform.ts:66:52)
+    at exports.transformSync (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\register\lib\worker\transform.js:94:15)
+    at Function.handleMessage (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\register\lib\worker\handle-message.js:23:16)
+    at LocalClient.<anonymous> (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\register\lib\worker-client.js:134:86)
+    at LocalClient.transform (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\register\lib\worker-client.js:64:47)
+    at compile (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\register\lib\hook.js:58:25)
+    at compileBabel7 (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\register\lib\hook.js:49:14)
+    at Module._compile (D:\FundooNotesProject\Fundoo_Notes\node_modules\pirates\lib\index.js:130:29)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (D:\FundooNotesProject\Fundoo_Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (D:\FundooNotesProject\Fundoo_Notes\src\controllers\/note.controller.js:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (D:\FundooNotesProject\Fundoo_Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (D:\FundooNotesProject\Fundoo_Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (D:\FundooNotesProject\Fundoo_Notes\src\routes\/note.route.js:2:1) {"date":"Thu Feb 09 2023 02:33:36 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":0,"index":95,"line":5},"pos":95,"reasonCode":"UnexpectedToken"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":10805},"process":{"argv":["node","D:\\FundooNotesProject\\Fundoo_Notes\\src\\index.js"],"cwd":"D:\\FundooNotesProject\\Fundoo_Notes","execPath":"D:\\node\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18500205,"external":20181974,"heapTotal":131948544,"heapUsed":108760536,"rss":171974656},"pid":11388,"uid":null,"version":"v18.12.0"},"stack":"SyntaxError: D:\\FundooNotesProject\\Fundoo_Notes\\src\\services\\note.service.js: Unexpected token, expected \"from\" (5:0)\n\n\u001b[0m \u001b[90m 3 |\u001b[39m \u001b[36mimport\u001b[39m cli\u001b[0m\n\u001b[0m \u001b[90m 4 |\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 5 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mconst\u001b[39m createNote \u001b[33m=\u001b[39m \u001b[36masync\u001b[39m (body) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m   |\u001b[39m \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 6 |\u001b[39m   \u001b[36mconst\u001b[39m note \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mNote\u001b[39m\u001b[33m.\u001b[39mcreate(body)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 7 |\u001b[39m   \u001b[36mreturn\u001b[39m note\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 8 |\u001b[39m }\u001b[0m\n    at instantiate (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parse-error\\credentials.ts:62:21)\n    at toParseError (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parse-error.ts:60:12)\n    at Parser.raise (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\tokenizer\\index.ts:1456:19)\n    at Parser.unexpected (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\tokenizer\\index.ts:1497:16)\n    at Parser.expectContextual (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\util.ts:104:18)\n    at Parser.parseImport (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.ts:2907:12)\n    at Parser.parseStatementContent (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.ts:558:25)\n    at Parser.parseStatementLike (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.ts:406:17)\n    at Parser.parseModuleItem (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.ts:351:17)\n    at Parser.parseBlockOrModuleBlockBody (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.ts:1331:16)\n    at Parser.parseBlockBody (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.ts:1305:10)\n    at Parser.parseProgram (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.ts:224:10)\n    at Parser.parseTopLevel (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.ts:206:25)\n    at Parser.parse (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\index.ts:45:10)\n    at parse (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\index.ts:67:38)\n    at parser (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\core\\src\\parser\\index.ts:28:19)\n    at parser.next (<anonymous>)\n    at normalizeFile (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\core\\src\\transformation\\normalize-file.ts:52:24)\n    at normalizeFile.next (<anonymous>)\n    at run (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\core\\src\\transformation\\index.ts:38:36)\n    at run.next (<anonymous>)\n    at transform (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\core\\src\\transform.ts:29:20)\n    at transform.next (<anonymous>)\n    at evaluateSync (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\gensync\\index.js:251:28)\n    at fn (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\gensync\\index.js:89:14)\n    at stopHiding - secret - don't use this - v1 (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\core\\src\\errors\\rewrite-stack-trace.ts:97:14)\n    at Object.transformSync (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\core\\src\\transform.ts:66:52)\n    at exports.transformSync (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\register\\lib\\worker\\transform.js:94:15)\n    at Function.handleMessage (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\register\\lib\\worker\\handle-message.js:23:16)\n    at LocalClient.<anonymous> (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\register\\lib\\worker-client.js:134:86)\n    at LocalClient.transform (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\register\\lib\\worker-client.js:64:47)\n    at compile (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\register\\lib\\hook.js:58:25)\n    at compileBabel7 (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\register\\lib\\hook.js:49:14)\n    at Module._compile (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:130:29)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Module.require (node:internal/modules/cjs/loader:1061:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (D:\\FundooNotesProject\\Fundoo_Notes\\src\\controllers\\/note.controller.js:3:1)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Module.require (node:internal/modules/cjs/loader:1061:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (D:\\FundooNotesProject\\Fundoo_Notes\\src\\routes\\/note.route.js:2:1)","timestamp":"2023-02-08T21:03:36.251Z","trace":[{"column":21,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parse-error\\credentials.ts","function":"instantiate","line":62,"method":null,"native":false},{"column":12,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parse-error.ts","function":"toParseError","line":60,"method":null,"native":false},{"column":19,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\tokenizer\\index.ts","function":"Parser.raise","line":1456,"method":"raise","native":false},{"column":16,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\tokenizer\\index.ts","function":"Parser.unexpected","line":1497,"method":"unexpected","native":false},{"column":18,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\util.ts","function":"Parser.expectContextual","line":104,"method":"expectContextual","native":false},{"column":12,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.ts","function":"Parser.parseImport","line":2907,"method":"parseImport","native":false},{"column":25,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.ts","function":"Parser.parseStatementContent","line":558,"method":"parseStatementContent","native":false},{"column":17,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.ts","function":"Parser.parseStatementLike","line":406,"method":"parseStatementLike","native":false},{"column":17,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.ts","function":"Parser.parseModuleItem","line":351,"method":"parseModuleItem","native":false},{"column":16,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.ts","function":"Parser.parseBlockOrModuleBlockBody","line":1331,"method":"parseBlockOrModuleBlockBody","native":false},{"column":10,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.ts","function":"Parser.parseBlockBody","line":1305,"method":"parseBlockBody","native":false},{"column":10,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.ts","function":"Parser.parseProgram","line":224,"method":"parseProgram","native":false},{"column":25,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.ts","function":"Parser.parseTopLevel","line":206,"method":"parseTopLevel","native":false},{"column":10,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\parser\\index.ts","function":"Parser.parse","line":45,"method":"parse","native":false},{"column":38,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\parser\\src\\index.ts","function":"parse","line":67,"method":null,"native":false},{"column":19,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\core\\src\\parser\\index.ts","function":"parser","line":28,"method":null,"native":false},{"column":null,"file":null,"function":"parser.next","line":null,"method":"next","native":false},{"column":24,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\core\\src\\transformation\\normalize-file.ts","function":"normalizeFile","line":52,"method":null,"native":false},{"column":null,"file":null,"function":"normalizeFile.next","line":null,"method":"next","native":false},{"column":36,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\core\\src\\transformation\\index.ts","function":"run","line":38,"method":null,"native":false},{"column":null,"file":null,"function":"run.next","line":null,"method":"next","native":false},{"column":20,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\core\\src\\transform.ts","function":"transform","line":29,"method":null,"native":false},{"column":null,"file":null,"function":"transform.next","line":null,"method":"next","native":false},{"column":28,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\gensync\\index.js","function":"evaluateSync","line":251,"method":null,"native":false},{"column":14,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\gensync\\index.js","function":"fn","line":89,"method":null,"native":false},{"column":14,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\core\\src\\errors\\rewrite-stack-trace.ts","function":"stopHiding - secret - don't use this - v1","line":97,"method":null,"native":false},{"column":52,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\core\\src\\transform.ts","function":"Object.transformSync","line":66,"method":"transformSync","native":false},{"column":15,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\register\\lib\\worker\\transform.js","function":"exports.transformSync","line":94,"method":"transformSync","native":false},{"column":16,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\register\\lib\\worker\\handle-message.js","function":"Function.handleMessage","line":23,"method":"handleMessage","native":false},{"column":86,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\register\\lib\\worker-client.js","function":null,"line":134,"method":null,"native":false},{"column":47,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\register\\lib\\worker-client.js","function":"LocalClient.transform","line":64,"method":"transform","native":false},{"column":25,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\register\\lib\\hook.js","function":"compile","line":58,"method":null,"native":false},{"column":14,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\register\\lib\\hook.js","function":"compileBabel7","line":49,"method":null,"native":false},{"column":29,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":130,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1061,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":103,"method":null,"native":false},{"column":1,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\src\\controllers\\/note.controller.js","function":null,"line":3,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1061,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":103,"method":null,"native":false},{"column":1,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\src\\routes\\/note.route.js","function":null,"line":2,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-08T21:03:41.892Z"}
+info: Connected to the database. {"timestamp":"2023-02-08T21:03:44.402Z"}
+info: Fetched all notes successfully {"timestamp":"2023-02-08T21:03:50.405Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-08T21:04:16.288Z"}
+info: Connected to the database. {"timestamp":"2023-02-08T21:04:19.019Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-08T21:04:30.455Z"}
+info: Connected to the database. {"timestamp":"2023-02-08T21:04:32.922Z"}
+info: updated note successfully {"timestamp":"2023-02-08T21:05:27.174Z"}
+info: updated note successfully {"timestamp":"2023-02-08T21:08:48.296Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-08T21:42:35.754Z"}
+info: Connected to the database. {"timestamp":"2023-02-08T21:42:38.385Z"}
+info: updated note successfully {"timestamp":"2023-02-08T21:43:05.627Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-08T21:43:29.961Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-08T21:43:35.721Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-08T21:43:47.081Z"}
+info: Connected to the database. {"timestamp":"2023-02-08T21:43:49.697Z"}
+info: updated note successfully {"timestamp":"2023-02-08T21:43:50.005Z"}
+info: Fetched note successfully {"timestamp":"2023-02-08T21:43:57.703Z"}
+info: updated note successfully {"timestamp":"2023-02-08T21:45:39.843Z"}
+info: Fetched note successfully {"timestamp":"2023-02-08T21:45:46.646Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-08T21:48:58.492Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-08T21:49:03.732Z"}
+info: Connected to the database. {"timestamp":"2023-02-08T21:49:06.584Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-08T21:49:24.017Z"}
+info: Connected to the database. {"timestamp":"2023-02-08T21:49:26.568Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-08T21:49:48.728Z"}
+info: Connected to the database. {"timestamp":"2023-02-08T21:49:51.330Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-08T21:50:37.914Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-08T21:50:44.505Z"}
+info: Connected to the database. {"timestamp":"2023-02-08T21:50:47.008Z"}
+error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\route.js:211:15)
+    at Function.get (D:\FundooNotesProject\Fundoo_Notes\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (D:\FundooNotesProject\Fundoo_Notes\src\routes\/note.route.js:20:8)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (D:\FundooNotesProject\Fundoo_Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (D:\FundooNotesProject\Fundoo_Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (D:\FundooNotesProject\Fundoo_Notes\src\routes\/index.js:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (D:\FundooNotesProject\Fundoo_Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (D:\FundooNotesProject\Fundoo_Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (D:\FundooNotesProject\Fundoo_Notes\src\/index.js:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (D:\FundooNotesProject\Fundoo_Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (D:\FundooNotesProject\Fundoo_Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Thu Feb 09 2023 03:20:56 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":13646},"process":{"argv":["node","D:\\FundooNotesProject\\Fundoo_Notes\\src\\index.js"],"cwd":"D:\\FundooNotesProject\\Fundoo_Notes","execPath":"D:\\node\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18821230,"external":20504167,"heapTotal":143044608,"heapUsed":116628104,"rss":183652352},"pid":7852,"uid":null,"version":"v18.12.0"},"stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as get] (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\express\\lib\\router\\route.js:211:15)\n    at Function.get (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at Object.<anonymous> (D:\\FundooNotesProject\\Fundoo_Notes\\src\\routes\\/note.route.js:20:8)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Module.require (node:internal/modules/cjs/loader:1061:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (D:\\FundooNotesProject\\Fundoo_Notes\\src\\routes\\/index.js:5:1)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Module.require (node:internal/modules/cjs/loader:1061:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (D:\\FundooNotesProject\\Fundoo_Notes\\src\\/index.js:8:1)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-02-08T21:50:56.674Z","trace":[{"column":15,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as get]","line":211,"method":"<computed> [as get]","native":false},{"column":19,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\express\\lib\\router\\index.js","function":"Function.get","line":521,"method":"get","native":false},{"column":8,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\src\\routes\\/note.route.js","function":null,"line":20,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1061,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":103,"method":null,"native":false},{"column":1,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\src\\routes\\/index.js","function":null,"line":5,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1061,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":103,"method":null,"native":false},{"column":1,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\src\\/index.js","function":null,"line":8,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-08T21:51:10.201Z"}
+info: Connected to the database. {"timestamp":"2023-02-08T21:51:12.788Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-08T21:51:35.102Z"}
+info: Connected to the database. {"timestamp":"2023-02-08T21:51:37.759Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-08T21:51:54.039Z"}
+info: Connected to the database. {"timestamp":"2023-02-08T21:51:56.602Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T05:19:28.269Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:19:30.920Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T05:56:27.354Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:56:30.041Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T19:57:36.350Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T19:57:39.036Z"}
+info: Mail sent Successfully {"timestamp":"2023-02-09T19:59:16.418Z"}
+info: Mail sent Successfully {"timestamp":"2023-02-09T20:00:53.264Z"}
+info: Mail sent Successfully {"timestamp":"2023-02-09T20:06:05.971Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T20:06:28.736Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T20:06:31.668Z"}
+info: Mail sent Successfully {"timestamp":"2023-02-09T20:06:37.152Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T20:08:25.417Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T20:08:27.986Z"}
+info: Mail sent Successfully {"timestamp":"2023-02-09T20:08:32.114Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T20:08:55.994Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T20:09:00.561Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T20:09:03.076Z"}
+info: Mail sent Successfully {"timestamp":"2023-02-09T20:09:07.134Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T20:09:33.807Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T20:09:36.346Z"}
+info: Mail sent Successfully {"timestamp":"2023-02-09T20:12:09.463Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T20:19:36.246Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T20:19:38.900Z"}
+info: Mail sent Successfully {"timestamp":"2023-02-09T20:20:03.388Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T20:29:22.829Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T20:29:25.482Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T20:29:33.479Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T20:29:35.936Z"}
+info: Mail sent Successfully {"timestamp":"2023-02-09T20:29:53.568Z"}
+info: Mail sent Successfully {"timestamp":"2023-02-09T20:30:45.474Z"}
+info: Mail sent Successfully {"timestamp":"2023-02-09T20:34:56.814Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T20:59:25.615Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T20:59:28.172Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T20:59:39.259Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T20:59:41.846Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:06:56.146Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T21:06:58.888Z"}
+info: User Registered Successfully {"timestamp":"2023-02-09T21:07:47.540Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:11:40.876Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T21:11:43.506Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:12:22.160Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T21:12:24.699Z"}
+error: 
+    status - 500 
+    message - Error: User already exist
+    at _callee$ (D:\FundooNotesProject\Fundoo_Notes\src\services\/user.service.js:19:11)
+    at tryCatch (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-09T21:12:24.956Z"}
+error: Error in Registering {"timestamp":"2023-02-09T21:12:24.961Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:12:46.321Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T21:12:48.830Z"}
+info: User Registered Successfully {"timestamp":"2023-02-09T21:12:56.005Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:15:46.256Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T21:15:48.858Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:16:20.891Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:16:30.456Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T21:16:33.006Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:16:48.119Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T21:16:50.728Z"}
+info: User Registered Successfully {"timestamp":"2023-02-09T21:16:57.724Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:17:34.214Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T21:17:36.731Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:20:07.694Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T21:20:10.341Z"}
+error: 
+    status - 500 
+    message - TypeError: mq.producer is not a function
+    at _callee$ (D:\FundooNotesProject\Fundoo_Notes\src\services\/user.service.js:15:8)
+    at tryCatch (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-09T21:21:50.747Z"}
+error: Error in Registering {"timestamp":"2023-02-09T21:21:50.752Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:25:06.515Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T21:25:09.179Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:25:22.393Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T21:25:24.889Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:25:42.512Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T21:25:44.939Z"}
+error: 
+    status - 500 
+    message - Error: User already exist
+    at _callee$ (D:\FundooNotesProject\Fundoo_Notes\src\services\/user.service.js:19:11)
+    at tryCatch (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooNotesProject\Fundoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-09T21:25:47.060Z"}
+error: Error in Registering {"timestamp":"2023-02-09T21:25:47.067Z"}
+info: User Registered Successfully {"timestamp":"2023-02-09T21:25:54.223Z"}
+error: uncaughtException: (0 , _user.registerMail) is not a function
+TypeError: (0 , _user.registerMail) is not a function
+    at D:\FundooNotesProject\Fundoo_Notes\src\utils\/rabbitmq.js:26:29
+    at Channel.BaseChannel.dispatchMessage (D:\FundooNotesProject\Fundoo_Notes\node_modules\amqplib\lib\channel.js:483:12)
+    at Channel.BaseChannel.handleDelivery (D:\FundooNotesProject\Fundoo_Notes\node_modules\amqplib\lib\channel.js:492:15)
+    at Channel.emit (node:events:513:28)
+    at Channel.emit (node:domain:489:12)
+    at D:\FundooNotesProject\Fundoo_Notes\node_modules\amqplib\lib\channel.js:278:10
+    at Channel.content [as handleMessage] (D:\FundooNotesProject\Fundoo_Notes\node_modules\amqplib\lib\channel.js:331:9)
+    at Channel.C.acceptMessageFrame (D:\FundooNotesProject\Fundoo_Notes\node_modules\amqplib\lib\channel.js:246:31)
+    at Channel.C.accept (D:\FundooNotesProject\Fundoo_Notes\node_modules\amqplib\lib\channel.js:399:17)
+    at Connection.mainAccept [as accept] (D:\FundooNotesProject\Fundoo_Notes\node_modules\amqplib\lib\connection.js:63:33)
+    at Socket.go (D:\FundooNotesProject\Fundoo_Notes\node_modules\amqplib\lib\connection.js:486:48)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at emitReadable_ (node:internal/streams/readable:590:12)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Fri Feb 10 2023 02:55:54 GMT+0530 (India Standard Time)","error":{"code":541},"exception":true,"os":{"loadavg":[0,0,0],"uptime":12403},"process":{"argv":["node","D:\\FundooNotesProject\\Fundoo_Notes\\src\\index.js"],"cwd":"D:\\FundooNotesProject\\Fundoo_Notes","execPath":"D:\\node\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19202664,"external":21959899,"heapTotal":211177472,"heapUsed":181753464,"rss":258424832},"pid":11848,"uid":null,"version":"v18.12.0"},"stack":"TypeError: (0 , _user.registerMail) is not a function\n    at D:\\FundooNotesProject\\Fundoo_Notes\\src\\utils\\/rabbitmq.js:26:29\n    at Channel.BaseChannel.dispatchMessage (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\amqplib\\lib\\channel.js:483:12)\n    at Channel.BaseChannel.handleDelivery (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\amqplib\\lib\\channel.js:492:15)\n    at Channel.emit (node:events:513:28)\n    at Channel.emit (node:domain:489:12)\n    at D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\amqplib\\lib\\channel.js:278:10\n    at Channel.content [as handleMessage] (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\amqplib\\lib\\channel.js:331:9)\n    at Channel.C.acceptMessageFrame (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\amqplib\\lib\\channel.js:246:31)\n    at Channel.C.accept (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\amqplib\\lib\\channel.js:399:17)\n    at Connection.mainAccept [as accept] (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\amqplib\\lib\\connection.js:63:33)\n    at Socket.go (D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\amqplib\\lib\\connection.js:486:48)\n    at Socket.emit (node:events:513:28)\n    at Socket.emit (node:domain:489:12)\n    at emitReadable_ (node:internal/streams/readable:590:12)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-09T21:25:54.684Z","trace":[{"column":29,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\src\\utils\\/rabbitmq.js","function":null,"line":26,"method":null,"native":false},{"column":12,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.BaseChannel.dispatchMessage","line":483,"method":"dispatchMessage","native":false},{"column":15,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.BaseChannel.handleDelivery","line":492,"method":"handleDelivery","native":false},{"column":28,"file":"node:events","function":"Channel.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Channel.emit","line":489,"method":"emit","native":false},{"column":10,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\amqplib\\lib\\channel.js","function":null,"line":278,"method":null,"native":false},{"column":9,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.content [as handleMessage]","line":331,"method":"content [as handleMessage]","native":false},{"column":31,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.acceptMessageFrame","line":246,"method":"acceptMessageFrame","native":false},{"column":17,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.accept","line":399,"method":"accept","native":false},{"column":33,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.mainAccept [as accept]","line":63,"method":"mainAccept [as accept]","native":false},{"column":48,"file":"D:\\FundooNotesProject\\Fundoo_Notes\\node_modules\\amqplib\\lib\\connection.js","function":"Socket.go","line":486,"method":"go","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Socket.emit","line":489,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"emitReadable_","line":590,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:26:21.472Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T21:26:24.130Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:27:35.432Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:27:42.840Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T21:27:45.393Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:28:30.438Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T21:28:32.965Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:28:42.989Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T21:28:45.535Z"}
+info: User Registered Successfully {"timestamp":"2023-02-09T21:29:32.467Z"}
+info: User Registered Successfully {"timestamp":"2023-02-09T21:30:24.550Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:36:02.190Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T21:36:04.739Z"}
+info: User Registered Successfully {"timestamp":"2023-02-09T21:36:31.990Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:38:37.349Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T21:38:39.945Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:39:16.790Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T21:39:19.182Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:39:32.458Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T21:39:34.939Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:39:45.468Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T21:39:48.189Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:39:57.508Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T21:39:59.938Z"}
+info: User Registered Successfully {"timestamp":"2023-02-09T21:40:43.363Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:42:08.966Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T21:42:11.598Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:42:29.547Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T21:42:32.031Z"}
+info: User Registered Successfully {"timestamp":"2023-02-09T21:43:15.619Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:44:03.060Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T21:44:05.770Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:44:28.888Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T21:44:31.409Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:46:30.697Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:46:34.616Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T21:46:37.242Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:47:56.723Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:48:02.220Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T21:48:04.718Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:48:45.656Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T21:48:48.125Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:48:56.932Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T21:48:59.519Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:49:51.763Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T21:49:54.292Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:50:02.299Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T21:50:04.808Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:50:26.583Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T21:50:29.084Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:50:58.206Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T21:51:00.680Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:51:19.111Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T21:51:21.624Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:51:31.543Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T21:51:34.104Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-09T21:51:52.582Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T21:51:55.090Z"}
+info: User Registered Successfully {"timestamp":"2023-02-09T21:54:39.370Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-10T17:18:32.367Z"}
+info: Connected to the database. {"timestamp":"2023-02-10T17:18:35.166Z"}
